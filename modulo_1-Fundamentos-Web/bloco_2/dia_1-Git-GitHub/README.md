@@ -1,0 +1,1 @@
+#Este repositório representa apenas um teste desta aula de Git e GitHub, onde foi aprendido com sucesso a instalar e configurar corretamente o Git, utilizar seus principais comandos e sincronização com o GitHub.
