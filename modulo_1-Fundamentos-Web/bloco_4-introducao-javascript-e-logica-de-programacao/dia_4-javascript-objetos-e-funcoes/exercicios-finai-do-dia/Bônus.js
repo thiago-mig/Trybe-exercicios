@@ -33,3 +33,4 @@ function arrayOfnumbers(vetor) {
     return pares;
 }
 console.log(arrayOfnumbers(vector));
+//
