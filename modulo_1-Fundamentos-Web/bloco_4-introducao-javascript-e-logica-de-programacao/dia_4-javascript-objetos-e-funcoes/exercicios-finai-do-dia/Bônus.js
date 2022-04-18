@@ -19,7 +19,7 @@ for (let alg = 0; alg < entrada.length; alg += 1) {
 console.log(resultado);
 */
 // 
-let vector = [[1, 2], [3,4,5,6], [7,8,9,10]];
+/*let vector = [[1, 2], [3,4,5,6], [7,8,9,10]];
 
 function arrayOfnumbers(vetor) {
     let pares = [];
@@ -33,8 +33,9 @@ function arrayOfnumbers(vetor) {
     return pares;
 }
 console.log(arrayOfnumbers(vector));
+*/
 //
-const basket = [
+/*const basket = [
     'Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva', 'Laranja',
     'Jaca', 'Pera', 'Melancia', 'Uva', 'Laranja', 'Melancia',
     'Banana', 'Uva', 'Pera', 'Abacate', 'Laranja', 'Abacate',
@@ -72,3 +73,37 @@ list = contaACesta(basket);
 for (let item in list){
     console.log('Sua cesta possui ', list[item], ' ', item + 's');
 }
+*/
+
+let moradores = {
+    blocoUm: [
+      {
+        nome: 'Luiza',
+        sobrenome: 'Guimarães',
+        andar: 10,
+        apartamento: 1005,
+      },
+      {
+        nome: 'William',
+        sobrenome: 'Albuquerque',
+        andar: 5,
+        apartamento: 502,
+      },
+    ],
+    blocoDois: [
+      {
+        nome: 'Murilo',
+        sobrenome: 'Ferraz',
+        andar: 8,
+        apartamento: 804,
+      },
+      {
+        nome: 'Zoey',
+        sobrenome: 'Brooks',
+        andar: 1,
+        apartamento: 101,
+      },
+    ],
+  };
+  let nome = 'joao';
+  console.log(`O morador do bloco 2 de nome ${moradores.blocoDois[1]['nome']} ${moradores.blocoDois[1]['sobrenome']} mora no ${moradores.blocoDois[1].andar}° andar, apartamento ${moradores.blocoDois[1].apartamento}`);
