@@ -105,5 +105,19 @@ let moradores = {
       },
     ],
   };
-  let nome = 'joao';
+  
   console.log(`O morador do bloco 2 de nome ${moradores.blocoDois[1]['nome']} ${moradores.blocoDois[1]['sobrenome']} mora no ${moradores.blocoDois[1].andar}° andar, apartamento ${moradores.blocoDois[1].apartamento}`);
+
+  let fullName;
+for (let i in moradores) {
+    console.log(`moradores do ${i} \n`);
+    for (let k of moradores[i]) {
+        for (let l in k) {
+            if (l == 'nome'){
+                fullName = k[l];
+            } else if (l == 'sobrenome'){
+                fullName += ` ${k[l]}`;
+            } 
+        }console.log(fullName);
+    }
+}
