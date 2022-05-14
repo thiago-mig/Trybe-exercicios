@@ -23,6 +23,23 @@ header {
   margin-top: 20px;
 }
 
+.second-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+}
+
+div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 220px;
+  width: 180px;
+}
+
 .gallery-img {
   width: 150px;
 }
