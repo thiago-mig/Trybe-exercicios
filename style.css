@@ -16,6 +16,13 @@ header {
   width: 70px;
 }
 
+.first-section {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
 .gallery-img {
   width: 150px;
 }
