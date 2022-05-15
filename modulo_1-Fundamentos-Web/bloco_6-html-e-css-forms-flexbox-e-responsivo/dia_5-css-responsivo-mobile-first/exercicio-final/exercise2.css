@@ -21,3 +21,12 @@ html {
       }
 }
 
+@media screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  
+    .container {
+      flex-wrap: wrap;
+    }
+}
