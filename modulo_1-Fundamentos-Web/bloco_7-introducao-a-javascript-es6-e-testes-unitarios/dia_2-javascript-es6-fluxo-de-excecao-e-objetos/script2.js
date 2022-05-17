@@ -100,15 +100,36 @@ const lesson1 = {
 
   // Crie uma função para contar quantos estudantes assistiram às aulas de Matemática. Use o objeto criado no exercício 5.
 
-  const quantosAlunos = () => {
-    let array = Object.values(allLessons);
+  const quantosAlunos = (obj, materia) => {
+    let array = Object.values(obj);
     let alunos = 0;
     for (let obj of array) {
-      if (obj['materia'] === 'Matemática'){
+      if (obj['materia'] === materia){
         alunos += obj['numeroEstudantes'];
       }
     }
     return alunos;
   }
 
-  console.log(quantosAlunos());
+  console.log(quantosAlunos(allLessons, 'Matemática'));
+
+  // Crie uma função que deverá retornar um objeto que representa o relatório do professor ou professora, as aulas que ele ou ela ministrou e o número total de estudantes. Use o objeto criado no exercício 5:
+
+  const criaRelatorio = (obj, prof) => {
+    let array = Object.values(obj);
+    let relatorio = {
+      nome: '',
+      materias: [],
+      alunos: 0,
+    };
+    for (let obj of array) {
+      if (obj.professor === prof) {
+        relatorio.nome = obj.professor;
+        relatorio.materias.push(obj.materia);
+        relatorio.alunos += obj.numeroEstudantes;
+      }
+    }
+    return relatorio;
+  }
+
+  console.log(criaRelatorio(allLessons, 'Maria Clara'));
