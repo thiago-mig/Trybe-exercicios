@@ -1,0 +1,11 @@
+{
+  "name": "try-2",
+  "version": "1.0.0",
+  "description": "diretorio teste para instalação do jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Thiago Miguel da Costa",
+  "license": "ISC"
+}
