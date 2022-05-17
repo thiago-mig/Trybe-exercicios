@@ -1,0 +1,14 @@
+{
+  "name": "exercicio-final",
+  "version": "1.0.0",
+  "description": "Exercícios de fixação do dia 7.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Thiago Miguel da Costa",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
