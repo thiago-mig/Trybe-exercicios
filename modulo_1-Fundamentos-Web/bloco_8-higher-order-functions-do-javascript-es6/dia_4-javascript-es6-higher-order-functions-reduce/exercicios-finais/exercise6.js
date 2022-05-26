@@ -10,6 +10,7 @@ function studentAverage() {
   });
 }
 console.log(studentAverage());
+
 const expected = [
   { name: 'Pedro Henrique', average: 7.8 },
   { name: 'Miguel', average: 9.2 },
